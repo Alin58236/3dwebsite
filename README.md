@@ -48,3 +48,14 @@ export default tseslint.config({
   },
 })
 ```
+
+Aditional dependencies include: 
+
+- legacy-peer-deps
+- fiber
+- maath (mathematical functions for 3d perspective adjustments)
+- react-tilt
+- react-vertical-timeline-component
+- emailJs/browser (for email subscription newsletters)
+- framer-motion (for animations)
+- react-router-DOM
