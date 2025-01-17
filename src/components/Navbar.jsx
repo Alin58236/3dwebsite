@@ -23,8 +23,8 @@ const Navbar = () => {
               window.scrollTo(0,0)
             }}
           >
-            <img src={logo} alt="logo" className="w-9 h-9 object-contain"></img>
-            <p className="text-amber-50 text-[18px] font-bold cursor-pointer flex">Alin &nbsp;<span className="sm:block hidden">| Web Dev</span></p>
+            <img src={logo} alt="logo" className="w-14 h-10"></img>
+            <p className="text-amber-50 text-[22px] font-bold cursor-pointer flex"><span className="sm:block hidden">|  SLOGAN BORAT</span></p>
             </Link>
 
             <ul className="list-none hidden sm:flex flex-row gap-10">
