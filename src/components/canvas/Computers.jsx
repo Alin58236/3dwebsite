@@ -35,14 +35,14 @@ const Computers = () => {
        
         <pointLight intensity={1} />
         <primitive
-          object={mixer.scene}
-          scale={ 0.13}
-          position={ [-0.5 , -0.96, 0]}
-          rotation={[-1.65, -3.9, 1.7]}
+          object={keyboard.scene}
+          // scale={ 0.13}
+          // position={ [-0.5 , -0.96, 0]}
+          // rotation={[-1.65, -3.9, 1.7]}
           //rotec
-          // scale={ 25}
-          // position={ [0.5, -0.6, 0]}
-          // rotation={[-1.65, -5, 1.7]}
+          scale={ 25}
+          position={ [0.5, -0.6, 0]}
+          rotation={[-1.65, -5, 1.7]}
 
         />
       </mesh>
