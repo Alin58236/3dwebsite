@@ -1,0 +1,11 @@
+Model Information:
+* title:	YAMAHA MV1602 - VINTAGE RACK MOUNT MIXER
+* source:	https://sketchfab.com/3d-models/yamaha-mv1602-vintage-rack-mount-mixer-cd6a73ac8da842be96fea6b148c3085f
+* author:	Dave.Maak (https://sketchfab.com/Dave.Maak)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "YAMAHA MV1602 - VINTAGE RACK MOUNT MIXER" (https://sketchfab.com/3d-models/yamaha-mv1602-vintage-rack-mount-mixer-cd6a73ac8da842be96fea6b148c3085f) by Dave.Maak (https://sketchfab.com/Dave.Maak) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

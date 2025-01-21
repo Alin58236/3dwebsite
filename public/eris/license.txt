@@ -1,0 +1,8 @@
+Model Information:
+* title:	studio monitors/speaker (Presonus, 3.5in)
+* source:	https://sketchfab.com/3d-models/studio-monitorsspeaker-presonus-35in-ac0a0181e3f144578bd0e543c4d95442
+* author:	cereal (https://sketchfab.com/skeeeyee)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
