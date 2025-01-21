@@ -20,10 +20,10 @@ import {
     tesla,
     shopify,
     carrent,
-    jobit,
     tripguide,
     threejs,
-    bebington
+    bebington,
+    apple
   } from "../assets";
   
   export const navLinks = [
@@ -237,8 +237,8 @@ import {
           color: "text-[#f79c70]",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: apple,
+      source_code_link: "https://www.apple.com/iphone-16-pro/",
     },
     {
       name: "Emag",
