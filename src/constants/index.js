@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    bebington
   } from "../assets";
   
   export const navLinks = [
@@ -172,24 +173,24 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        ",,,,,,TREABA,,,BUNA,,,, FAC ,,BAIETII,, ASTIA DOMLE,,,, NU CA JAPONEJII,,,,, AAIA DE LA,,,,,, IBANEZ,,,,,",
+      name: ",,BEBINGTON",
       designation: "CFO",
       company: "Acme Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+        ",,,EU AL ,,CUNOSC,,,,PE MOSH,,, , , CRACIUN , , SI E,,,UN EXCROC,,,,,MAI BINE I ZICEATI,,,,LU NEA BEBE,,,,CE VRETI,,,DE CRACIUN,,,,,,,MERY,,,X-MAS,,,",
+      name: "BB",
       designation: "COO",
       company: "DEF Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "VLADUZ,,,,,NU FI,,,,,,OBRAZNIC",
+      name: "HIS RIGHT HONORABLE LORD BEBINGLY,,,,,,",
       designation: "CTO",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
