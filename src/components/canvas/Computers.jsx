@@ -10,9 +10,8 @@ const Computers = () => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
   const mixer = useGLTF('./mixer/scene.gltf')
   const keyboard = useGLTF('./keyboards/scene.gltf')
-  // const materialLoader = MTLLoader().setPath('./soundsystem/').load("sound_system_model.mtl");
-  // const objLoader = OBJLoader().setMaterials(materialLoader).load("sound_system_model.obj");
-  
+  const yamaha =useGLTF('./yamaha/scene.gltf')
+  const eris = useGLTF('./eris/scene.gltf')
 
   return (
     
@@ -36,13 +35,25 @@ const Computers = () => {
         <pointLight intensity={1} />
         <primitive
           object={keyboard.scene}
+          //rotec
           // scale={ 0.13}
           // position={ [-0.5 , -0.96, 0]}
           // rotation={[-1.65, -3.9, 1.7]}
-          //rotec
+          
+          //keyboard
           scale={ 25}
-          position={ [0.5, -0.6, 0]}
+          position={ [0, -1.8, 0]}
           rotation={[-1.65, -5, 1.7]}
+          
+          //yamaha
+          // scale={ 0.15}
+          // position={ [0, -0.8, 0]}
+          // rotation={[-1.65, -5, 1.7]}
+
+          //eris
+          // scale={ 12}
+          // position={ [0, -1.8, 2.5]}
+          // rotation={[-1.70, -4.7, 1.69]}
 
         />
       </mesh>
