@@ -34,12 +34,12 @@ const Computers = () => {
     
       <mesh>
         <directionalLight
-          position={[3.1, 2.0, 2.4]}
+          position={[3.5, 0.7, 1]}
           castShadow
           intensity={1.5}
         />
         <ambientLight />
-        <hemisphereLight intensity={0.25} groundColor='black' />
+        <hemisphereLight intensity={0.5} groundColor='white' />
         <spotLight
           position={[-50, 10, 10]}
           angle={10}

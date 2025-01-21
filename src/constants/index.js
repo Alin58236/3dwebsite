@@ -1,6 +1,6 @@
 import {
-    mobile,
-    backend,
+    mixmaster,
+    videography,
     creator,
     web,
     javascript,
@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Development",
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Recording Mixing Mastering",
+      icon: mixmaster,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Filmmaking",
+      icon: videography,
     },
     {
-      title: "Content Creator",
+      title: "3D Modelling",
       icon: creator,
     },
   ];
