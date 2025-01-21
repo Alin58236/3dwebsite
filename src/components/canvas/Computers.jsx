@@ -7,11 +7,28 @@ import { Light } from 'three'
 
 const Computers = () => {
 
+  const [isMobile, setIsMobile] = useState(false);
   const computer = useGLTF('./desktop_pc/scene.gltf')
   const mixer = useGLTF('./mixer/scene.gltf')
   const keyboard = useGLTF('./keyboards/scene.gltf')
   const yamaha =useGLTF('./yamaha/scene.gltf')
   const eris = useGLTF('./eris/scene.gltf')
+
+  useEffect(()=>{
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+
+    setIsMobile(mediaQuery.matches);
+
+    const handleMediaQueryChange = (event) => {
+        setIsMobile(event.matches)
+    }
+
+    //the addition and removal of the media query is just a workaround for react
+    mediaQuery.addEventListener("change",handleMediaQueryChange);
+    mediaQuery.removeEventListener("change",handleMediaQueryChange);
+
+  }, [])
+  //also no dependency -> meaning that this effect takes place when the component is rendered
 
   return (
     
@@ -34,16 +51,16 @@ const Computers = () => {
        
         <pointLight intensity={1} />
         <primitive
-          object={keyboard.scene}
+          object={eris.scene}
           //rotec
           // scale={ 0.13}
           // position={ [-0.5 , -0.96, 0]}
           // rotation={[-1.65, -3.9, 1.7]}
           
           //keyboard
-          scale={ 25}
-          position={ [0, -1.8, 0]}
-          rotation={[-1.65, -5, 1.7]}
+          // scale={ isMobile? 13 : 25}
+          // position={ isMobile?[0, -1, 0]:[0, -1.8, 0]}
+          // rotation={[-1.65, -5, 1.7]}
           
           //yamaha
           // scale={ 0.15}
@@ -51,16 +68,16 @@ const Computers = () => {
           // rotation={[-1.65, -5, 1.7]}
 
           //eris
-          // scale={ 12}
-          // position={ [0, -1.8, 2.5]}
-          // rotation={[-1.70, -4.7, 1.69]}
+          scale={ isMobile?11:17}
+          position={ isMobile?[-1, -0.8, 2.3]:[-1, -1, 3.7]}
+          rotation={[-1.70, -4.7, 1.695]}
 
         />
       </mesh>
   )
 }
 
-const ComputersCanvas = () => {
+const ComputersCanvas = ({isMobile}) => {
   return (
     <Canvas
       frameloop='demand'
