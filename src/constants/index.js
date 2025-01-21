@@ -204,61 +204,61 @@ import {
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient",
+          color: "text-[#65ba9d]",
         },
         {
           name: "mongodb",
-          color: "green-text-gradient",
+          color: "text-[#913eff]",
         },
         {
           name: "tailwind",
-          color: "pink-text-gradient",
+          color: "text-[#f79c70]",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://learning-deploy-next-69bg.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "Apple",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Normal ca nu l-am facut eu",
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient",
+          color: "text-[#65ba9d]",
         },
         {
           name: "restapi",
-          color: "green-text-gradient",
+          color: "text-[#913eff]",
         },
         {
           name: "scss",
-          color: "pink-text-gradient",
+          color: "text-[#f79c70]",
         },
       ],
       image: jobit,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Emag",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Daca citesti asta imi iei asta de craciun ms",
       tags: [
         {
           name: "nextjs",
-          color: "blue-text-gradient",
+          color: "text-[#65ba9d]",
         },
         {
           name: "supabase",
-          color: "green-text-gradient",
+          color: "text-[#913eff]",
         },
         {
           name: "css",
-          color: "pink-text-gradient",
+          color: "text-[#f79c70]",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://www.emag.ro/monitor-gaming-xiaomi-g27qi-27-ips-2k-180hz-1ms-amd-freesync-certificare-tuv-low-blue-light-hdmi-dp-1-4-vesa-negru-ela5593eu/pd/D39R81YBM/?ref=sponsored_products_p_d_fallback_5_4&provider=rec-ads&recid=recads_2_a6758b6c2f268d2d1773dedf0ae30a0b1e32862ec8b8aa216de5710d83cb2b7c_1736894292&scenario_ID=2&aid=3e9f060d-bbb2-11ef-bf55-02e5d3610841&oid=205400076",
     },
   ];
   
