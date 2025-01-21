@@ -4,7 +4,10 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import { max } from "three/tsl";
+
+import {SectionWrapper} from  '../hoc'
+
+
 
 const ServiceCard = ({index, title ,icon}) => {
   return (
@@ -45,14 +48,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-2-3xl leading-[30px]"
       >
-        Boratura boratura boratura boratura boratura boratura boratura boratura
-        boratura boratura boratura boratura boratura boratura boratura boratura
-        boratura boratura boratura boratura boratura boratura boratura boratura
-        boratura boratura boratura boratura boratura boratura boratura boratura
-        boratura boratura boratura boratura boratura boratura boratura boratura
-        boratura boratura boratura boratura boratura boratura boratura boratura
-        boratura boratura boratura boratura boratura boratura boratura boratura
-        boratura boratura boratura
+        We’re VISION, a production team that specializes in records—production, recording, mixing, and mastering, all with precision and passion. 
+      On hte visual side we craft bold, cinematic videos that bring your music to life, 
+      and if it is needed, we even provide web development services and designs so our client can obtain stunning digital experiences and product models. Together, we’re here to amplify your ideas, merge sound and visuals seamlessly, and push creative boundaries.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -67,4 +65,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default SectionWrapper(About,"about");
